@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Containers com Bootstrap</title>
+    <!-- Link para o CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilo adicional para o container com borda */
+        .container-borda {
+            border: 2px solid #007bff; /* Borda azul */
+            padding: 20px; /* Espaçamento interno */
+        }
+
+        /* Estilo adicional para o container com cor */
+        .container-cor {
+            background-color: #e9ecef; /* Cor de fundo cinza claro */
+            padding: 20px; /* Espaçamento interno */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container padrão do Bootstrap -->
+    <div class="container">
+        <h2 class="text-uppercase">Container Padrão</h2>
+        <p>Este é um container padrão do Bootstrap que se adapta ao tamanho da tela.</p>
+    </div>
+
+    <!-- Container fluido do Bootstrap -->
+    <div class="container-fluid">
+        <h2 class="text-primary">Container Fluido</h2>
+        <p>Este container ocupa 100% da largura da tela.</p>
+    </div>
+
+    <!-- Container com borda personalizada -->
+    <div class="container container-borda">
+        <h2 class="font-weight-bold">Container com Borda</h2>
+        <p>Este container tem uma borda azul ao redor dele.</p>
+    </div>
+
+    <!-- Container com cor personalizada -->
+    <div class="container container-cor">
+        <h2>Container com Cor</h2>
+        <p>Este container tem uma cor de fundo cinza claro.</p>
+    </div>
+
+    <!-- Container de linha (row) -->
+    <div class="container">
+        <h2>Container de Linha</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p-3 border bg-light">Coluna 1</div>
+            </div>
+            <div class="col">
+                <div class="p-3 border bg-light">Coluna 2</div>
+            </div>
+            <div class="col">
+                <div class="p-3 border bg-light">Coluna 3</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabela dentro de um container -->
+    <div class="container">
+        <h2>Tabela de Exemplo</h2>
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>João Silva</td>
+                    <td>joao.silva@example.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maria Oliveira</td>
+                    <td>maria.oliveira@example.com</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Carlos Pereira</td>
+                    <td>carlos.pereira@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Script do Bootstrap (opcional) -->
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo de Containers com Bootstrap</title>
+        <!-- Link para o CSS do Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            /* Estilo adicional para o container com borda */
+            .container-borda {
+                border: 2px solid #007bff; /* Borda azul */
+                padding: 20px; /* Espaçamento interno */
+            }
+    
+            /* Estilo adicional para o container com cor */
+            .container-cor {
+                background-color: #e9ecef; /* Cor de fundo cinza claro */
+                padding: 20px; /* Espaçamento interno */
+            }
+    
+            /* Estilo para botão giratório */
+            .spin {
+                animation: spin 1s infinite linear;
+            }
+    
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Container padrão do Bootstrap -->
+        <div class="container">
+            <h2 class="text-uppercase">Container Padrão</h2>
+            <p>Este é um container padrão do Bootstrap que se adapta ao tamanho da tela.</p>
+        </div>
+    
+        <!-- Container fluido do Bootstrap -->
+        <div class="container-fluid">
+            <h2 class="text-primary">Container Fluido</h2>
+            <p>Este container ocupa 100% da largura da tela.</p>
+        </div>
+    
+        <!-- Container com borda personalizada -->
+        <div class="container container-borda">
+            <h2 class="font-weight-bold">Container com Borda</h2>
+            <p>Este container tem uma borda azul ao redor dele.</p>
+        </div>
+    
+        <!-- Container com cor personalizada -->
+        <div class="container container-cor">
+            <h2>Container com Cor</h2>
+            <p>Este container tem uma cor de fundo cinza claro.</p>
+        </div>
+    
+        <!-- Container de linha (row) -->
+        <div class="container">
+            <h2>Container de Linha</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="p-3 border bg-light">Coluna 1</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Coluna 2</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Coluna 3</div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Tabela dentro de um container -->
+        <div class="container">
+            <h2>Tabela de Exemplo</h2>
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>João Silva</td>
+                        <td>joao.silva@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria Oliveira</td>
+                        <td>maria.oliveira@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Carlos Pereira</td>
+                        <td>carlos.pereira@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <!-- Botões -->
+        <div class="container mt-4">
+            <h2>Botões Exemplo</h2>
+            <!-- Botão escuro -->
+            <button class="btn btn-dark">Botão Escuro</button>
+            
+            <!-- Botão claro -->
+            <button class="btn btn-light">Botão Claro</button>
+            
+            <!-- Botão pequeno -->
+            <button class="btn btn-primary btn-sm">Botão Pequeno</button>
+            
+            <!-- Botão grande -->
+            <button class="btn btn-success btn-lg">Botão Grande</button>
+            
+            <!-- Botão de largura total -->
+            <button class="btn btn-info btn-block">Botão de Largura Total</button>
+            
+            <!-- Botão ativado -->
+            <button class="btn btn-warning" disabled>Botão Desativado</button>
+            
+            <!-- Botão giratório -->
+            <button class="btn btn-danger">Botão Giratório</button>
+        </div>
+        <div class="container mt-4">
+        <h2>Botão Giratório Exemplo</h2>
+        <!-- Botão giratório com efeito de loading -->
+        <button class="btn btn-danger" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Carregando...
+        </button>
+    </div>
+        <!-- Script do Bootstrap (opcional) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <img src="Sem título.png"> <!-- IMG SEM NADA-->
+        <img src="Sem título.png" class="image-fluid"> <!--IMAGEM RESPOSIVA-->
+        <img src="Sem título.png" class="rounded"> <!-- IMAGEM COM CANTOS ARREDONDADOS-->
+        <img src="Sem título.png" class="rounded-circle"> <!-- TRANSFORMA A IMAGEM EM UM CIRCULO-->
+        <img src="Sem título.png" class="img-thumbnail"> <!-- TRANSFORMA NUMA THUMBNAIL-->
+        <img src="Sem título.png" class="text-center"> <!-- CENTRALIZA A IMAGEM-->
+    </body>
+    </html>
+    
+
